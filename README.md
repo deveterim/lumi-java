@@ -9,7 +9,7 @@
 ### Maven (`pom.xml`)
 ```xml
 <dependency>
-    <groupId>com.lumi</groupId>
+    <groupId>io.github.deveterim</groupId>
     <artifactId>lumi-java</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -17,7 +17,7 @@
 
 ### Gradle (`build.gradle`)
 ```groovy
-implementation 'com.lumi:lumi-java:1.0.0'
+implementation 'io.github.deveterim:lumi-java:1.0.0'
 ```
 
 ---
