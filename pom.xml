@@ -115,6 +115,8 @@
                             <goal>sign</goal>
                         </goals>
                         <configuration>
+                            <keyname>39B22E7285BD90D15F919466B77EB9AD930A97E7</keyname>
+                            <passphrase></passphrase>
                             <gpgArguments>
                                 <arg>--pinentry-mode</arg>
                                 <arg>loopback</arg>
