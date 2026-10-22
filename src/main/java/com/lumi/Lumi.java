@@ -14,11 +14,11 @@ public class Lumi {
     private final ApiKeys apiKeys;
 
     public Lumi() {
-        this(System.getenv("MAILIFICA_API_KEY"));
+        this(System.getenv("LUMI_API_KEY"));
     }
 
     public Lumi(String apiKey) {
-        this(apiKey, System.getenv("MAILIFICA_BASE_URL") != null ? System.getenv("MAILIFICA_BASE_URL") : "https://api.lumi.com/v1");
+        this(apiKey, System.getenv("LUMI_BASE_URL") != null ? System.getenv("LUMI_BASE_URL") : "https://api.lumi.ao");
     }
 
     public Lumi(String apiKey, String baseUrl) {
